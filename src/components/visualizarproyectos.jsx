@@ -36,7 +36,7 @@ function VisualizarProyectos() {
           <li key={index} onClick={() => handleProyectoClick(proyecto)}>{proyecto.nombre}</li>
         ))}
       </ul>
-      <a href="Proyectos.html"><button>Volver a la página de Proyectos</button></a>
+      <a href="/"><button>Volver a la página de Proyectos</button></a>
     </div>
   );
 }

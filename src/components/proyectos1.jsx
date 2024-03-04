@@ -55,10 +55,10 @@ const Proyectos1 = () => {
           <ul>
             
             <li><a href="/usuario">Usuario</a></li>
-            <li><a href="/visualizar">Proyectos</a></li>
+            <li><a href="/proyectos">Proyectos</a></li>
             <li><a href="assets/MANUAL-HTML-Y-CSS.pdf" download>Documentos</a></li>
             <li><a href="/usuario">Cuenta</a></li>
-            <li><a href="colaboradores.html">Colaboradores</a></li>
+            <li><a href="/colaboradores">Colaboradores</a></li>
           </ul>
         </nav>
       </header>
@@ -104,7 +104,10 @@ const Proyectos1 = () => {
         </form>
         <section>
           <br />
-          <a href="VisualizarProyectos.html"><button className="volver">Visualizar Proyectos</button></a>
+          <a href="/visualizar"><button className="volver">Visualizar Proyectos</button></a>
+          <br />
+          <br />
+          <a href="/"><button className="cerrar">Cerrar Sesion</button></a>
           <br />
         </section>
       </main>

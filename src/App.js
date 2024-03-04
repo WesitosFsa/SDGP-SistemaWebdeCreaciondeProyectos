@@ -6,15 +6,10 @@ import LoginPage from './components/inicio';
 import Crearcuenta from './components/crearcuenta';
 import SistemaGestionProyectos from './components/index';
 import SoporteTecnico from './components/informacion'
-
-
 import Proyectos from './components/proyectos2';
 import Proyectos1 from './components/proyectos1';
 import Usuario from './components/usuario';
 import VisualizarProyectos from './components/visualizarproyectos';
-
-
-
 
 function App() {
   return (
@@ -23,7 +18,7 @@ function App() {
         <header className="App-header">
         </header>
         <Routes>
-
+          <Route path="/" element={<SistemaGestionProyectos />} /> {/* Página principal */}
           <Route path="/administrador" element={<AdministradorUsuarios />} /> 
           <Route path="/colaboradores" element={<InformacionUsuarios />} /> 
           <Route path="/crearcuenta" element={<Crearcuenta />} /> 
@@ -34,8 +29,6 @@ function App() {
           <Route path="/proyectosuser" element={<Proyectos1 />} /> {/* Página de inicio de sesión */}
           <Route path="/usuario" element={<Usuario />} /> {/* Página de inicio de sesión */}
           <Route path="/visualizar" element={<VisualizarProyectos />} /> {/* Página de inicio de sesión */}
-
-
         </Routes>
       </div>
     </Router>

@@ -29,7 +29,7 @@ const LoginPage = () => {
       <br />
       <button className="volver" onClick={() => window.location.href = '/'}>Pagina Principal</button>
       <br />
-      <button className="proyectos" onClick={() => window.location.href = '/Proyectos'}>Pagina de Proyectos</button>
+      <button className="proyectos" onClick={() => window.location.href = '/proyectosuser'}>Pagina de Proyectos</button>
       <br />
       <button className="proyectos" onClick={() => window.location.href = '/administrador'}>Pagina del administrador</button>
       <br />

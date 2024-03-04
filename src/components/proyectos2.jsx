@@ -33,8 +33,11 @@ const Proyectos = () => {
   return (
     <div>
       <h1>SDGP - Sistema de Gestión de Proyectos</h1>
+      <br />
+      <br />
       <main>
         <h2>Proyectos</h2>
+
         <table id="tablaProyectos">
           <thead>
             <tr>
@@ -45,6 +48,7 @@ const Proyectos = () => {
               <th>Acciones</th>
             </tr>
           </thead>
+    
           <tbody>
             {proyectos.map((proyecto, index) => (
               <tr key={index}>
@@ -61,6 +65,8 @@ const Proyectos = () => {
             ))}
           </tbody>
         </table>
+    
+
 
         {/* Formulario para agregar nuevos proyectos */}
         <form id="formularioProyecto">

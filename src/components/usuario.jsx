@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/user.css'; // Asegúrate de usar './' para indicar que es un archivo local
+import imagen3 from './images/usuario.png';
 function Usuario() {
   return (
     <div>
@@ -10,7 +11,7 @@ function Usuario() {
         <p><strong>Dirección:</strong> ASJKDHJAKSD</p>
         <p><strong>Teléfono:</strong> 1564156</p>
         <p><strong>Email:</strong> mateo.garzon@email.com</p>
-        <img src="assets/img/usuario.png" alt="Mateo Garzón" />
+        <img src={imagen3} alt="Imagen 3" /> {/* Utiliza la imagen importada */}
         <h1>Mateo Garzón</h1>
         <p>Currículum Vitae</p>
       </section>
@@ -36,10 +37,11 @@ function Usuario() {
           </li>
         </ul>
       </section>
-
-      <footer>
-        <p>2024 Mateo Garzón - Currículum Vitae</p>
-      </footer>
+      <section>
+                <br />
+                <a href="/proyectosuser"><button className="volver">Pagina Principal</button></a>
+                <br />
+            </section>
     </div>
   );
 }

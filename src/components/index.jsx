@@ -12,9 +12,9 @@ function SistemaGestionProyectos() {
         <p>Gestiona tus proyectos de manera sencilla</p>
         <nav>
           <ul>
-            <li><a href="inicio.html">Iniciar Sesión</a></li>
-            <li><a href="CrearCuenta.html">Crear Cuenta</a></li>
-            <li><a href="informacion.html">Soporte</a></li>
+            <li><a href="/inicio">Iniciar Sesión</a></li>
+            <li><a href="/crearcuenta">Crear Cuenta</a></li>
+            <li><a href="/informacion">Soporte</a></li>
           </ul>
         </nav>
       </header>
@@ -31,9 +31,9 @@ function SistemaGestionProyectos() {
             </div>
           </div>
         </nav>
-        <a href="Inicio.html"><button>Iniciar Sesión</button></a>
+        <a href="/inicio"><button>Iniciar Sesión</button></a>
         <br />
-        <a href="CrearCuenta.html"><button>Crear Cuenta</button></a>
+        <a href="/crearcuenta"><button>Crear Cuenta</button></a>
       </main>
     </div>
   );

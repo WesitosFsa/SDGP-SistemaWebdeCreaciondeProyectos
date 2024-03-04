@@ -28,7 +28,7 @@ function InformacionUsuarios() {
 
             <section>
                 <br />
-                <a href="Proyectos.html"><button className="volver">Pagina Principal</button></a>
+                <a href="/proyectosuser"><button className="volver">Pagina Principal</button></a>
                 <br />
             </section>
         </div>

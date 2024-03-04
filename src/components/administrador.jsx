@@ -62,7 +62,7 @@ function AdministradorUsuarios() {
             </table>
             <section>
                 <br />
-                <a href="Proyectos.html"><button className="volver">Pagina Principal</button></a>
+                <a href="/"><button className="volver">Pagina Principal</button></a>
                 <br />
             </section>
             <form id="formularioUsuario" onSubmit={agregarUsuario}>
