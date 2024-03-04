@@ -1,0 +1,94 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input[type="email"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #2E588A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+.volver{
+  background-color: #2E588A;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+.proyectos{
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+
+.social-login {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.google-login,
+.microsoft-login {
+  background-color: #dddddd;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  width: 48%;
+  box-sizing: border-box;
+}
+
+a {
+  color: #2E588A;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
