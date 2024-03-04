@@ -1,5 +1,5 @@
 import React from 'react';
-import './css/Inicio.css';
+import './css/inicio.css';
 
 function SistemaGestionProyectos() {
   return (
