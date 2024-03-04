@@ -12,7 +12,7 @@ function App() {
         </header>
         <Routes>
   
-          <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión */}
+          <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión wesitos */}
         </Routes>
       </div>
     </Router>
