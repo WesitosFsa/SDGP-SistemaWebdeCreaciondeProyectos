@@ -1,10 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+import './inicio.css';
+import AdministradorUsuarios from './components/administrador';
+import InformacionUsuarios from './components/colaboradores';
 import LoginPage from './components/inicio';
-import MainPage from './components/main'; // Importa el componente de la página principal
-import ProyectosPage from './components/proyectos'; // Importa el componente de la página de proyectos
-import AdminPage from './components/administrador'; // Importa el componente de la página del administrador
+import Crearcuenta from './components/crearcuenta';
+import SistemaGestionProyectos from './components/index';
+import SoporteTecnico from './components/informacion'
+
 
 function App() {
   return (
@@ -13,18 +16,16 @@ function App() {
         <header className="App-header">
         </header>
         <Routes>
-          <Route path="/" element={<MainPage />} /> {/* Página principal */}
-          <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión */}
-          <Route path="/proyectos" element={<ProyectosPage />} /> {/* Página de proyectos */}
-          <Route path="/administrador" element={<AdminPage />} /> {/* Página de administrador */}
-  
-          <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión wesitos */}
+          <Route path="/inicio" element={<LoginPage />} />
+          <Route path="/administrador" element={<AdministradorUsuarios />} /> 
+          <Route path="/colaboradores" element={<InformacionUsuarios />} /> 
+          <Route path="/crearcuenta" element={<Crearcuenta />} /> 
+          <Route path="/index" element={<SistemaGestionProyectos />} /> 
+          <Route path="/informacion" element={<SoporteTecnico />} /> 
         </Routes>
       </div>
     </Router>
   );
 }
-
-export default App;
 
 export default App;
