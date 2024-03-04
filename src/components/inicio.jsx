@@ -1,4 +1,7 @@
 import React from 'react';
+import './css/inicio.css'; // Asegúrate de usar './' para indicar que es un archivo local
+
+
 const LoginPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
