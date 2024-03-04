@@ -17,6 +17,8 @@ function App() {
           <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión */}
           <Route path="/proyectos" element={<ProyectosPage />} /> {/* Página de proyectos */}
           <Route path="/administrador" element={<AdminPage />} /> {/* Página de administrador */}
+  
+          <Route path="/inicio" element={<LoginPage />} /> {/* Página de inicio de sesión wesitos */}
         </Routes>
       </div>
     </Router>
