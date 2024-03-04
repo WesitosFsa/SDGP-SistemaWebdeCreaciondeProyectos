@@ -24,7 +24,6 @@ function App() {
         </header>
         <Routes>
 
-          <Route path="/inicio" element={<LoginPage />} />
           <Route path="/administrador" element={<AdministradorUsuarios />} /> 
           <Route path="/colaboradores" element={<InformacionUsuarios />} /> 
           <Route path="/crearcuenta" element={<Crearcuenta />} /> 

@@ -1,5 +1,8 @@
 import React from 'react';
-import './css/inicio.css';
+import './css/Inicio.css';
+import imagen1 from './images/inicio1.jpg';
+import imagen2 from './images/inicio2.png';
+
 
 function SistemaGestionProyectos() {
   return (
@@ -9,7 +12,7 @@ function SistemaGestionProyectos() {
         <p>Gestiona tus proyectos de manera sencilla</p>
         <nav>
           <ul>
-            <li><a href="Inicio.html">Iniciar Sesión</a></li>
+            <li><a href="inicio.html">Iniciar Sesión</a></li>
             <li><a href="CrearCuenta.html">Crear Cuenta</a></li>
             <li><a href="informacion.html">Soporte</a></li>
           </ul>
@@ -21,10 +24,10 @@ function SistemaGestionProyectos() {
         <nav>
           <div className="row cabeza">
             <div className="col">
-              <img src="assets/img/inicio1.jpg" alt="Imagen 1" />
+              <img src={imagen1} alt="Imagen 1" /> {/* Utiliza la imagen importada */}
             </div>
             <div className="col">
-              <img src="assets/img/inicio2.png" alt="Imagen 2" />
+              <img src={imagen2} alt="Imagen 1" /> {/* Utiliza la imagen importada */}
             </div>
           </div>
         </nav>
